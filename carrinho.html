@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu Carrinho de Compras - Kick Society</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="header-container">
+            <div class="logo">
+                <img src="./image/image_49cc787b.jpg" alt="Kick Society Logo">
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar tênis raros, marcas...">
+                <button type="button">🔍</button>
+            </div>
+            <nav class="nav-menu">
+                <a href="index.html">Início</a>
+                <a href="#">Lançamentos</a>
+                <a href="#">Streetwear</a>
+            </nav>
+            <div class="cart-icon-container">
+                <a href="carrinho.html" class="cart-link">
+                    <span class="cart-icon">🛒</span>
+                    <span class="cart-badge">3</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="cart-banner">
+        <div class="banner-content">
+            <img src="./image/bannnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn.png" alt="Seu carrinho está esperando por você!">
+        </div>
+    </section>
+
+    <main class="container cart-page">
+        <section class="cart-table-container">
+            <table class="cart-table">
+                <caption>Produtos selecionados no seu carrinho</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Produto</th>
+                        <th scope="col">Preço Unitário</th>
+                        <th scope="col">Quantidade</th>
+                        <th scope="col">Subtotal</th>
+                        <th scope="col">Ação</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="cart-product-cell">
+                                <img src="image/tenis1.jpg" alt="Tênis Esportivo Premium">
+                                <div>
+                                    <strong>Tênis Esportivo Premium</strong>
+                                    <p>Calçados</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>R$ 449,90</td>
+                        <td><input type="number" min="1" value="1"></td>
+                        <td>R$ 449,90</td>
+                        <td><button class="btn-remove" title="Remover item">🗑️</button></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="cart-product-cell">
+                                <img src="image/tenis2.jpg" alt="Tênis Casual Classic">
+                                <div>
+                                    <strong>Tênis Casual Classic</strong>
+                                    <p>Calçados</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>R$ 189,90</td>
+                        <td><input type="number" min="1" value="1"></td>
+                        <td>R$ 189,90</td>
+                        <td><button class="btn-remove" title="Remover item">🗑️</button></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="cart-product-cell">
+                                <img src="image/tenis3.jpg" alt="Meias Performance Cano Alto">
+                                <div>
+                                    <strong>Meias Performance Cano Alto</strong>
+                                    <p>Acessórios</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>R$ 79,90</td>
+                        <td><input type="number" min="1" value="1"></td>
+                        <td>R$ 79,90</td>
+                        <td><button class="btn-remove" title="Remover item">🗑️</button></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="5" class="shipping-notice">
+                            🎉 Parabéns! Você ganhou <strong>Frete Grátis</strong> para esta compra.
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <aside class="order-summary">
+            <h3>Resumo do Pedido</h3>
+            <div class="summary-row">
+                <span>Subtotal:</span>
+                <span>R$ 719,70</span>
+            </div>
+            <div class="summary-row">
+                <span>Frete:</span>
+                <span class="free-shipping">Grátis</span>
+            </div>
+            
+            <div class="coupon-area">
+                <label for="coupon">Cupom de Desconto</label>
+                <div class="coupon-input-group">
+                    <input type="text" id="coupon" placeholder="Digite seu cupom">
+                    <button type="button">Aplicar</button>
+                </div>
+            </div>
+
+            <hr>
+            <div class="summary-row total-row">
+                <span>Total:</span>
+                <span>R$ 719,70</span>
+            </div>
+            
+            <a href="cadastro.html" class="btn-checkout">Finalizar Compra →</a>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Kick Society. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
