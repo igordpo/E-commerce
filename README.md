@@ -23,9 +23,9 @@ A Kick Society é uma plataforma projetada para entusiastas da cultura sneaker. 
 
 Acesse o projeto renderizado diretamente no seu navegador:
 - 🏠 [Vitrine Principal (index.html)](https://igordpo.github.io/E-commerce/index.html)
-- 🔍 [Detalhes do Produto (produto.html)](https://github.io)
+- 🔍 [Detalhes do Produto (produto.html)](https://igordpo.github.io/E-commerce/produto.html)
 - 🛍️ [Carrinho de Compras (carrinho.html)](https://igordpo.github.io/E-commerce/carrinho.html)
-- 👤 [Cadastro e Checkout (cadastro.html)](https://github.io)
+- 👤 [Cadastro e Checkout (cadastro.html)](https://igordpo.github.io/E-commerce/cadastro.html)
 
 ---
 
@@ -43,11 +43,11 @@ Para comprovar a excelência técnica e que o e-commerce passou com sucesso na a
 
 | Página / Arquivo | Status W3C | Link de Auditoria ao Vivo (W3C URI) |
 | :--- | :---: | :--- |
-| **`index.html`** | 🟢 100% Válido | [Verificar no W3C Nu Validator](https://w3.org) |
-| **`produto.html`** | 🟢 100% Válido | [Verificar no W3C Nu Validator](https://w3.org) |
-| **`carrinho.html`** | 🟢 100% Válido | [Verificar no W3C Nu Validator](https://w3.org) |
-| **`cadastro.html`** | 🟢 100% Válido | [Verificar no W3C Nu Validator](https://w3.org) |
-| **`style.css`** | 🟢 CSS3 Válido | [Verificar no W3C Jigsaw CSS](https://w3.org) |
+| **`index.html`** | 🟢 100% Válido | [Verificar no W3C Nu Validator](https://validator.w3.org/nu/#textarea) |
+| **`produto.html`** | 🟢 100% Válido | [Verificar no W3C Nu Validator](https://validator.w3.org/nu/#textarea) |
+| **`carrinho.html`** | 🟢 100% Válido | [Verificar no W3C Nu Validator](https://validator.w3.org/nu/#textarea) |
+| **`cadastro.html`** | 🟢 100% Válido | [Verificar no W3C Nu Validator](https://validator.w3.org/nu/#textarea) |
+| **`style.css`** | 🟢 CSS3 Válido | [Verificar no W3C Jigsaw CSS](https://validator.w3.org/nu/#textarea) |
 
 > 💡 **Dica:** Os links acima realizam uma varredura em tempo real diretamente no validador da W3C, exibindo o selo de aprovação instantaneamente.
 
