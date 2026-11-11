@@ -22,9 +22,9 @@ A Kick Society é uma plataforma projetada para entusiastas da cultura sneaker. 
 ## 🌐 Links das Páginas Publicadas (GitHub Pages)
 
 Acesse o projeto renderizado diretamente no seu navegador:
-- 🏠 [Vitrine Principal (index.html)](https://github.io)
+- 🏠 [Vitrine Principal (index.html)](https://igordpo.github.io/E-commerce/index.html)
 - 🔍 [Detalhes do Produto (produto.html)](https://github.io)
-- 🛍️ [Carrinho de Compras (carrinho.html)](https://github.io)
+- 🛍️ [Carrinho de Compras (carrinho.html)](https://igordpo.github.io/E-commerce/carrinho.html)
 - 👤 [Cadastro e Checkout (cadastro.html)](https://github.io)
 
 ---
