@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air Max Hype Limited - Kick Society</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="header-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="./image/image_49cc787b.jpg" alt="Kick Society Logo">
+                </a>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar tênis raros, marcas...">
+                <button type="button">🔍</button>
+            </div>
+            <nav class="nav-menu">
+                <a href="cadastro.html">Cadastro</a>
+                <a href="index.html">Início</a>
+                <a href="produto.html">Lançamentos</a>
+                <a href="produto.html">Streetwear</a>
+                <a href="#">Contato</a>
+            </nav>
+            <div class="cart-icon-container">
+                <a href="carrinho.html" class="cart-link">
+                    <span class="cart-icon">🛒</span>
+                    <span class="cart-badge">3</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container produto-pagina">
+        
+        <nav class="breadcrumb" aria-label="Trilha de navegação">
+            <a href="index.html">Início</a> &gt; 
+            <a href="produto.html">Tênis</a> &gt; 
+            <span>Air Max Hype Limited</span>
+        </nav>
+
+        <div class="produto-layout">
+            <div class="produto-galeria">
+                <div class="foto-principal-wrapper">
+                    <img src="./image/tenis4.jpg" alt="Foto principal" class="foto-principal">
+                </div>
+                <div class="miniaturas-container">
+                    <img src="./image/tenis4.jpg" alt="Miniatura 1" class="miniatura ativa">
+                    <img src="./image/tenis1.jpg" alt="Miniatura 2" class="miniatura">
+                    <img src="./image/tenis2.jpg" alt="Miniatura 3" class="miniatura">
+                    <img src="./image/tenis3.jpg" alt="Miniatura 4" class="miniatura">
+                </div>
+            </div>
+
+            <div class="produto-info">
+                <h1>Air Max Hype Limited</h1>
+                
+                <div class="avaliacao-estrelas">
+                    <span class="estrelas">⭐⭐⭐⭐⭐</span>
+                    <span class="total-avaliacoes">(48 avaliações de clientes)</span>
+                </div>
+
+                <div class="produto-precos">
+                    <span class="preco-antigo">R$ 1.499,00</span>
+                    <span class="preco-atual">R$ 1.199,00</span>
+                </div>
+
+                <form class="opcoes-compra" action="carrinho.html" method="GET">
+                    <div class="opcao-grupo">
+                        <label for="seletor-tamanho">Selecione o Tamanho:</label>
+                        <select id="seletor-tamanho" required>
+                            <option value="" disabled selected>Escolha o tamanho</option>
+                            <option value="38">38</option>
+                            <option value="39">39</option>
+                            <option value="40">40</option>
+                            <option value="41">41</option>
+                            <option value="42">42</option>
+                            <option value="43">43</option>
+                        </select>
+                    </div>
+
+                    <div class="opcao-grupo">
+                        <label>Cor do Cadarço Adicional:</label>
+                        <div class="radios-estilizados">
+                            <label class="radio-box">
+                                <input type="radio" name="cor-cadarco" value="preto" checked>
+                                <span class="radio-design">Preto</span>
+                            </label>
+                            <label class="radio-box">
+                                <input type="radio" name="cor-cadarco" value="laranja">
+                                <span class="radio-design">Laranja Hype</span>
+                            </label>
+                            <label class="radio-box">
+                                <input type="radio" name="cor-cadarco" value="branco">
+                                <span class="radio-design">Branco Off</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn-adicionar-carrinho" style="width: 100%; border: none; cursor: pointer;">Adicionar ao Carrinho</button>
+                </form>
+            </div>
+        </div>
+
+        <section class="especificacoes-secao">
+            <h2>Especificações Técnicas</h2>
+            <table class="tabela-especificacoes">
+                <caption>Detalhes técnicos de fabricação e materiais do produto</caption>
+                <tbody>
+                    <tr>
+                        <th scope="row">Marca</th>
+                        <td>Nike Core Collection</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Material Superior</th>
+                        <td>Camurça Premium e Mesh Respirável</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Tecnologia de Amortecimento</th>
+                        <td>Air Max Max Air Visível no Calcanhar</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Peso Aproximado</th>
+                        <td>380g (Varia conforme o tamanho)</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Garantia do Fabricante</th>
+                        <td>90 dias contra defeitos de fabricação</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Origem</th>
+                        <td>Importado (Edição Limitada)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+        <p>&copy; 2026 Kick Society. Todos os direitos reservados. CNPJ: 86.560.968/3852-84</p>
+    </footer>
+</body>
+</html>

@@ -9,173 +9,191 @@
 </head>
 
 <body>
-    <header class="cabecalho">
-        <img class="logo" src="./image/image_49cc787b.jpg"
-            alt="Logo oficial da Kick Society, loja especializada em tênis raros e streetwear" width="80" height="80">
+    <header class="main-header">
+        <div class="header-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="./image/image_49cc787b.jpg" alt="Logo oficial da Kick Society, loja especializada em tênis raros e streetwear">
+                </a>
+            </div>
 
-        <div class="busca-container">
-            <input type="text" placeholder="Buscar tênis raros, marcas..." class="busca-input">
-            <button class="busca-btn" aria-label="Buscar">🔍</button>
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar tênis raros, marcas...">
+                <button type="button" aria-label="Buscar">🔍</button>
+            </div>
+
+            <nav class="nav-menu">
+                <a href="cadastro.html">Cadastro</a>
+                <a href="index.html">Início</a>
+                <a href="produto.html">Lançamentos</a>
+                <a href="produto.html">Streetwear</a>
+                <a href="#">Contato</a>
+            </nav>
+
+            <div class="cart-icon-container">
+                <a href="carrinho.html" class="cart-link">
+                    <span class="cart-icon">🛒</span>
+                    <span class="cart-badge">3</span>
+                </a>
+            </div>
         </div>
-
-        <nav class="menu">
-            <a href="cadastro.html">Cadastro</a>
-            <a href="#">Início</a>
-            <a href="#">Lançamentos</a>
-            <a href="#">Streetwear</a>
-            <a href="#">Contato</a>
-            <a href="#" class="carrinho" aria-label="Carrinho de compras"><li class="link"><a href="carrinho.html">🛒</a></li><span class="carrinho-contador">0</span></a>
-        </nav>
     </header>
 
     <main>
-        <section class="banner-container">
-            <picture>
-                <img src="./image/a.png" alt="Banner promocional da nova coleção de tênis raros e streetwear de outono"
-                    class="banner-img" width="1920" height="600">
-            </picture>
-        </section>
+        <h1 class="sr-only">Kick Society - Loja de Streetwear e Tênis Raros</h1>
 
-        <section class="categorias-secao">
+        <div class="cart-banner">
+            <div class="banner-content">
+                <img src="./image/a.png" alt="Banner promocional da nova coleção de tênis raros e streetwear de outono">
+            </div>
+        </div>
+
+        <div class="categorias-secao">
             <div class="categoria-item">
                 <div class="imagem-wrapper">
-                    <img src="./image/tenis4.jpg" alt="Categoria Lançamentos - Tênis raros recém-chegados ao estoque"
-                        width="180" height="180">
+                    <a href="produto.html">
+                        <img src="./image/tenis4.jpg" alt="Categoria Lançamentos - Tênis raros recém-chegados ao estoque">
+                    </a>
                 </div>
                 <span>Lançamentos</span>
             </div>
             <div class="categoria-item">
                 <div class="imagem-wrapper">
-                    <img src="./image/tenis5.jpg" alt="Categoria Ofertas - Tênis streetwear com descontos especiais"
-                        width="180" height="180">
+                    <a href="produto.html">
+                        <img src="./image/tenis5.jpg" alt="Categoria Ofertas - Tênis streetwear com descontos especiais">
+                    </a>
                 </div>
                 <span>Ofertas</span>
             </div>
             <div class="categoria-item">
                 <div class="imagem-wrapper">
-                    <img src="./image/tenis6.jpg" alt="Categoria Acessórios - Meias, bonés e moletons streetwear"
-                        width="180" height="180">
+                    <a href="produto.html">
+                        <img src="./image/tenis6.jpg" alt="Categoria Acessórios - Meias, bonés e moletons streetwear">
+                    </a>
                 </div>
                 <span>Acessórios</span>
             </div>
             <div class="categoria-item">
                 <div class="imagem-wrapper">
-                    <img src="./image/tenis7.jpg"
-                        alt="Categoria Mais Vendidos - Os modelos de tênis mais procurados da cultura sneakerhead"
-                        width="180" height="180">
+                    <a href="produto.html">
+                        <img src="./image/tenis7.jpg" alt="Categoria Mais Vendidos - Os modelos de tênis mais procurados da cultura sneakerhead">
+                    </a>
                 </div>
                 <span>Mais Vendidos</span>
             </div>
-        </section>
+        </div>
 
         <section class="vitrine-secao">
+            <h2>Nossos Produtos</h2>
+            
             <div class="grid-vitrine">
                 <article class="card">
                     <figure class="card-media">
                         <span class="badge-tag tag-desconto">-15%</span>
-                        <img src="./image/tenis1.jpg"
-                            alt="Tênis de corrida de alta performance preto com detalhes em amortecimento avançado"
-                            loading="lazy" width="400" height="300">
+                        <a href="produto.html">
+                            <img src="./image/tenis1.jpg" alt="Tênis de corrida de alta performance preto com detalhes em amortecimento avançado" loading="lazy">
+                        </a>
+                        <figcaption class="card-info">
+                            <h3>15% de Desconto</h3>
+                            <span class="preco">R$ 764,15</span>
+                        </figcaption>
                     </figure>
-                    <figcaption class="card-info">
-                        <h4>15% de Desconto</h4>
-                        <span class="preco">R$ 764,15</span>
-                    </figcaption>
                 </article>
 
                 <article class="card">
                     <figure class="card-media">
                         <span class="badge-tag tag-desconto">-10%</span>
-                        <img src="./image/tenis2.jpg"
-                            alt="Tênis urbano casual em couro sintético preto fosco com solado emborrachado"
-                            loading="lazy" width="400" height="300">
+                        <a href="produto.html">
+                            <img src="./image/tenis2.jpg" alt="Tênis urbano casual em couro sintético preto fosco com solado emborrachado" loading="lazy">
+                        </a>
+                        <figcaption class="card-info">
+                            <h3>10% de Desconto</h3>
+                            <span class="preco">R$ 809,10</span>
+                        </figcaption>
                     </figure>
-                    <figcaption class="card-info">
-                        <h4>10% de Desconto</h4>
-                        <span class="preco">R$ 809,10</span>
-                    </figcaption>
                 </article>
 
                 <article class="card">
                     <figure class="card-media">
                         <span class="badge-tag tag-desconto">-5%</span>
-                        <img src="./image/tenis3.jpg"
-                            alt="Tênis de basquete cano alto com design geométrico moderno estruturado" loading="lazy"
-                            width="400" height="300">
+                        <a href="produto.html">
+                            <img src="./image/tenis3.jpg" alt="Tênis de basquete cano alto com design geométrico moderno estruturado" loading="lazy">
+                        </a>
+                        <figcaption class="card-info">
+                            <h3>5% de Desconto</h3>
+                            <span class="preco">R$ 874,00</span>
+                        </figcaption>
                     </figure>
-                    <figcaption class="card-info">
-                        <h4>5% de Desconto</h4>
-                        <span class="preco">R$ 874,00</span>
-                    </figcaption>
                 </article>
 
                 <article class="card">
                     <figure class="card-media">
-                        <img src="./image/tenis4.jpg"
-                            alt="Tênis sneakerhead de edição limitada em camurça premium escura" loading="lazy"
-                            width="400" height="300">
+                        <a href="produto.html">
+                            <img src="./image/tenis4.jpg" alt="Tênis sneakerhead de edição limitada em camurça premium escura" loading="lazy">
+                        </a>
+                        <figcaption class="card-info">
+                            <h3>Air Max Hype Limited</h3>
+                            <span class="preco">R$ 1.199,00</span>
+                        </figcaption>
                     </figure>
-                    <figcaption class="card-info">
-                        <h4>Air Max Hype Limited</h4>
-                        <span class="preco">R$ 1.199,00</span>
-                    </figcaption>
                 </article>
 
                 <article class="card">
                     <figure class="card-media">
-                        <img src="./image/tenis5.jpg" alt="Tênis casual de cano baixo preto clássico estilo skateboard"
-                            loading="lazy" width="400" height="300">
+                        <a href="produto.html">
+                            <img src="./image/tenis5.jpg" alt="Tênis casual de cano baixo preto clássico estilo skateboard" loading="lazy">
+                        </a>
+                        <figcaption class="card-info">
+                            <h3>Street Classic One</h3>
+                            <span class="preco">R$ 499,90</span>
+                        </figcaption>
                     </figure>
-                    <figcaption class="card-info">
-                        <h4>Street Classic One</h4>
-                        <span class="preco">R$ 499,90</span>
-                    </figcaption>
                 </article>
 
                 <article class="card card-esgotado">
                     <figure class="card-media">
                         <span class="badge-esgotado">ESGOTADO</span>
-                        <img src="./image/tenis6.jpg" alt="Tênis retro vintage de colecionador totalmente esgotado"
-                            loading="lazy" width="400" height="300">
+                        <img src="./image/tenis6.jpg" alt="Tênis retro vintage de colecionador totalmente esgotado" loading="lazy">
+                        <figcaption class="card-info">
+                            <h3>Travis Scott Retro Edition</h3>
+                            <span class="preco-esgotado">Indisponível</span>
+                        </figcaption>
                     </figure>
-                    <figcaption class="card-info">
-                        <h4>Travis Scott Retro Edition</h4>
-                        <span class="preco-esgotado">Indisponível</span>
-                    </figcaption>
                 </article>
             </div>
         </section>
     </main>
-</body>
-<footer class="rodape">
-    <div class="rodape-conteudo">
-        <div class="rodape-coluna">
-            <h3>Kick Society</h3>
-            <p>A cultura sneakerhead e o streetwear premium ao seu alcance.</p>
-        </div>
 
-        <div class="rodape-coluna">
-            <h3>Links Úteis</h3>
-            <ul>
-                <li><a href="#">Políticas de Entrega</a></li>
-                <li><a href="#">Trocas e Devoluções</a></li>
-                <li><a href="#">Termos de Serviço</a></li>
-            </ul>
-        </div>
+    <footer class="rodape">
+        <div class="rodape-conteudo">
+            <div class="rodape-coluna">
+                <h3>Kick Society</h3>
+                <p>A cultura sneakerhead e o streetwear premium ao seu alcance.</p>
+            </div>
 
-        <div class="rodape-coluna">
-            <h3>Formas de Pagamento</h3>
-            <div class="pagamento-icones">
-                <span class="metodo-pg" title="Pix">💵 Pix</span>
-                <span class="metodo-pg" title="Cartão de Crédito">💳 Crédito</span>
-                <span class="metodo-pg" title="Boleto">📄 Boleto</span>
+            <div class="rodape-coluna">
+                <h3>Links Úteis</h3>
+                <ul>
+                    <li><a href="#">Políticas de Entrega</a></li>
+                    <li><a href="#">Trocas e Devoluções</a></li>
+                    <li><a href="#">Termos de Serviço</a></li>
+                </ul>
+            </div>
+
+            <div class="rodape-coluna">
+                <h3>Formas de Pagamento</h3>
+                <div class="pagamento-icones">
+                    <span class="metodo-pg" title="Pix">💵 Pix</span>
+                    <span class="metodo-pg" title="Cartão de Crédito">💳 Crédito</span>
+                    <span class="metodo-pg" title="Boleto">📄 Boleto</span>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div class="rodape-direitos">
-        <p>&copy; 2026 Kick Society. Todos os direitos reservados. CNPJ: 865609683852/844</p>
-    </div>
-</footer>
+        <div class="rodape-direitos">
+            <p>&copy; 2026 Kick Society. Todos os direitos reservados. CNPJ: 86.560.968/3852-84</p>
+        </div>
+    </footer>
+</body>
 
 </html>

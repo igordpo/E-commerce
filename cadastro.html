@@ -11,7 +11,9 @@
     <header class="main-header">
         <div class="header-container">
             <div class="logo">
-                <img src="image/logo.png" alt="Kick Society Logo">
+                <a href="index.html">
+                    <img src="./image/image_49cc787b.jpg" alt="Kick Society Logo">
+                </a>
             </div>
             <div class="search-bar">
                 <input type="text" placeholder="Buscar tênis raros, marcas...">
@@ -20,8 +22,8 @@
             <nav class="nav-menu">
                 <a href="cadastro.html" class="active">Cadastro</a>
                 <a href="index.html">Início</a>
-                <a href="#">Lançamentos</a>
-                <a href="#">Streetwear</a>
+                <a href="produto.html">Lançamentos</a>
+                <a href="produto.html">Streetwear</a>
                 <a href="#">Contato</a>
             </nav>
             <div class="cart-icon-container">
@@ -33,14 +35,16 @@
         </div>
     </header>
 
-    <section class="cart-banner">
+    <div class="cart-banner">
         <div class="banner-content">
             <img src="image/banner_cadastro.jpg" alt="Faça seu cadastro e ganhe benefícios exclusivos">
         </div>
-    </section>
+    </div>
 
     <main class="container checkout-page">
-        <form class="checkout-form" action="#" method="POST">
+        <h1>Cadastro e Checkout</h1>
+
+        <form class="checkout-form" action="carrinho.html" method="POST">
             
             <fieldset>
                 <legend>Dados Pessoais</legend>
@@ -152,17 +156,16 @@
             </fieldset>
 
             <div class="form-terms">
-                <label>
-                    <input type="checkbox" required> Aceito os Termos de Uso e Políticas do E-commerce.
-                </label>
+                <input type="checkbox" id="terms" required> 
+                <label for="terms">Aceito os Termos de Uso e Políticas do E-commerce.</label>
             </div>
 
             <button type="submit" class="btn-submit-checkout">Concluir Cadastro e Pagar</button>
         </form>
     </main>
 
-    <footer>
-        <p>&copy; 2026 Kick Society. Todos os direitos reservados.</p>
+    <footer class="rodape">
+        <p>&copy; 2026 Kick Society. Todos os direitos reservados. CNPJ: 86.560.968/3852-84</p>
     </footer>
 </body>
 </html>

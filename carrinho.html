@@ -11,16 +11,20 @@
     <header class="main-header">
         <div class="header-container">
             <div class="logo">
-                <img src="./image/image_49cc787b.jpg" alt="Kick Society Logo">
+                <a href="index.html">
+                    <img src="./image/image_49cc787b.jpg" alt="Kick Society Logo">
+                </a>
             </div>
             <div class="search-bar">
                 <input type="text" placeholder="Buscar tênis raros, marcas...">
                 <button type="button">🔍</button>
             </div>
             <nav class="nav-menu">
+                <a href="cadastro.html">Cadastro</a>
                 <a href="index.html">Início</a>
-                <a href="#">Lançamentos</a>
-                <a href="#">Streetwear</a>
+                <a href="produto.html">Lançamentos</a>
+                <a href="produto.html">Streetwear</a>
+                <a href="#">Contato</a>
             </nav>
             <div class="cart-icon-container">
                 <a href="carrinho.html" class="cart-link">
@@ -31,14 +35,16 @@
         </div>
     </header>
 
-    <section class="cart-banner">
+    <div class="cart-banner">
         <div class="banner-content">
             <img src="./image/bannnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn.png" alt="Seu carrinho está esperando por você!">
         </div>
-    </section>
+    </div>
 
     <main class="container cart-page">
-        <section class="cart-table-container">
+        <h1>Seu Carrinho de Compras</h1>
+
+        <div class="cart-table-container">
             <table class="cart-table">
                 <caption>Produtos selecionados no seu carrinho</caption>
                 <thead>
@@ -54,9 +60,11 @@
                     <tr>
                         <td>
                             <div class="cart-product-cell">
-                                <img src="image/tenis1.jpg" alt="Tênis Esportivo Premium">
+                                <a href="produto.html">
+                                    <img src="image/tenis1.jpg" alt="Tênis Esportivo Premium">
+                                </a>
                                 <div>
-                                    <strong>Tênis Esportivo Premium</strong>
+                                    <strong><a href="produto.html" style="color: white; text-decoration: none;">Tênis Esportivo Premium</a></strong>
                                     <p>Calçados</p>
                                 </div>
                             </div>
@@ -69,9 +77,11 @@
                     <tr>
                         <td>
                             <div class="cart-product-cell">
-                                <img src="image/tenis2.jpg" alt="Tênis Casual Classic">
+                                <a href="produto.html">
+                                    <img src="image/tenis2.jpg" alt="Tênis Casual Classic">
+                                </a>
                                 <div>
-                                    <strong>Tênis Casual Classic</strong>
+                                    <strong><a href="produto.html" style="color: white; text-decoration: none;">Tênis Casual Classic</a></strong>
                                     <p>Calçados</p>
                                 </div>
                             </div>
@@ -84,9 +94,11 @@
                     <tr>
                         <td>
                             <div class="cart-product-cell">
-                                <img src="image/tenis3.jpg" alt="Meias Performance Cano Alto">
+                                <a href="produto.html">
+                                    <img src="image/tenis3.jpg" alt="Meias Performance Cano Alto">
+                                </a>
                                 <div>
-                                    <strong>Meias Performance Cano Alto</strong>
+                                    <strong><a href="produto.html" style="color: white; text-decoration: none;">Meias Performance Cano Alto</a></strong>
                                     <p>Acessórios</p>
                                 </div>
                             </div>
@@ -105,10 +117,10 @@
                     </tr>
                 </tfoot>
             </table>
-        </section>
+        </div>
 
         <aside class="order-summary">
-            <h3>Resumo do Pedido</h3>
+            <h2>Resumo do Pedido</h2>
             <div class="summary-row">
                 <span>Subtotal:</span>
                 <span>R$ 719,70</span>
@@ -136,8 +148,8 @@
         </aside>
     </main>
 
-    <footer>
-        <p>&copy; 2026 Kick Society. Todos os direitos reservados.</p>
+    <footer class="rodape">
+        <p>&copy; 2026 Kick Society. Todos os direitos reservados. CNPJ: 86.560.968/3852-84</p>
     </footer>
 </body>
 </html>
